@@ -66,9 +66,10 @@ sortedList.each { buildFile ->
 		}
 	}
 	
-	
+	//job.close()
 	// clean up passed DD statements
 	job.stop()
+	//job.close()
 
 }
 
